@@ -1,0 +1,66 @@
+60. CASE STUDY: AI IN DAILY LIFE — FACIAL RECOGNITION & VOICE ASSISTANTS
+======================================================================
+
+Subject : Artificial Intelligence (BCA Practical 60)
+Topic   : Recent AI Application in Daily Life & Ethical Considerations
+
+1. INTRODUCTION
+---------------
+Artificial Intelligence has moved from research labs into everyday consumer
+devices. Two of the most widely adopted AI applications in daily life are:
+- Facial Recognition (used in smartphone unlocking, airport boarding, and security)
+- Voice Recognition / Virtual Assistants (Siri, Alexa, Google Assistant)
+
+2. HOW THE TECHNOLOGY WORKS
+---------------------------
+a) Data Capture:
+   A camera captures a face image, or a microphone records an audio waveform.
+
+b) Preprocessing & Feature Extraction:
+   - Facial Recognition: Detects facial landmarks (eye spacing, jawline) and
+     converts them into a numerical embedding vector using Convolutional
+     Neural Networks (CNNs).
+   - Voice Recognition: Converts audio into spectrograms and transcribes
+     speech into text using Transformer/RNN acoustic models.
+
+c) Matching / Intent Classification:
+   Compares the face embedding against stored templates or classifies the
+   spoken command to trigger an action.
+
+3. BENEFITS IN DAILY LIFE
+-------------------------
+- Convenience & Speed: Instant device unlocking (Face ID) and hands-free
+  navigation while driving.
+- Accessibility: Helps visually impaired or motor-impaired users operate
+  phones and smart home appliances by voice.
+- Public Safety & Fraud Prevention: Verifies identities in banking (e-KYC)
+  and assists in locating missing persons.
+
+4. ETHICAL CONSIDERATIONS & RISKS
+---------------------------------
+1) Privacy & Mass Surveillance:
+   Continuous face scanning in public spaces or always-listening microphones
+   raise concerns about unauthorized tracking and data storage.
+
+2) Informed Consent:
+   Users should clearly know when biometric data or voice recordings are being
+   collected, stored, or used to train AI models.
+
+3) Algorithmic Bias & Fairness:
+   If training datasets lack diverse skin tones, ages, or regional accents,
+   accuracy drops for underrepresented groups, risking false matches.
+
+4) Deepfakes & Spoofing:
+   Synthetic voices and faces can bypass weak authentication systems unless
+   liveness detection is enforced.
+
+5) Accountability:
+   When an automated system makes a mistake (such as a false identity match),
+   clear legal responsibility and human oversight are essential.
+
+5. CONCLUSION
+-------------
+Facial and voice recognition provide major benefits in convenience,
+accessibility, and security. Responsible deployment requires privacy-by-design
+(on-device processing), diverse training datasets to reduce bias, transparent
+user consent, and human-in-the-loop oversight for high-stakes decisions.
